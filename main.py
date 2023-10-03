@@ -1,10 +1,11 @@
 """
 ETL-Query script
 """
+import fire
 from mylib.extract import extract
 from mylib.transform_load import load
-from mylib.query import head_query, insert_query
-import fire
+from mylib.query import query
+
 
 def main(query_string):
     # Extract
