@@ -31,4 +31,4 @@ def load(dataset="../Sjg80-MiniProject5-sqlite-lab/data/DataSet_withNames.csv"):
     c.executemany("INSERT INTO NamesDB VALUES (?,?, ?, ?, ?, ?, ?, ?, ?)", payload)
     conn.commit()
     conn.close()
-    return "Names.db"
+    return "NamesDB.db"
