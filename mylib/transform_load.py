@@ -34,7 +34,8 @@ def load(dataset="data/DataSet_withNames.csv"):
     )
     # insert
     c.executemany(
-        """INSERT INTO DB_Email_Names VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+        """INSERT INTO DB_Email_Names VALUES (
+        ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         payload,
     )
     conn.commit()
