@@ -3,7 +3,7 @@
 This is a Python project that demonstrates how to create a script that interacts with a MySQL database. The project allows you to connect to a MySQL database, perform CRUD (Create, Read, Update, Delete) operations, and includes tests to verify the functionality.
 
 
-### Lab:
+### Steps in this project:
 
 * Use an AI Assistant, but use a different one then you used from a previous lab (Anthropic's Claud, Bard, Copilot, CodeWhisperer, Colab AI, etc)
 * ETL-Query:  [E] Extract a dataset from URL, [T] Transform, [L] Load into SQLite Database and [Q] Query
