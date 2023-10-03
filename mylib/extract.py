@@ -6,7 +6,8 @@ Names dataset
 import requests
 
 def extract(
-    url="https://github.com/tokern/piicatcher/blob/aa15f90bd25a45fc7b3ab75c52be71d714b8b57a/tests/samples/sample-data.csv",
+    url="https://github.com/tokern/piicatcher/blob/aa15f90bd25a45fc7b3ab75c52be71d714b8b57a/tests/samples/
+    sample-data.csv",
     file_path="data/DataSet_withNames.csv",
 ):
     """ "Extract a url to a file path"""
