@@ -4,16 +4,12 @@ import sqlite3
 
 
 def query(query):
-    """Query the database for the top 5 rows of the DB_Email_Names table"""
-    conn = sqlite3.connect("NamesDB.db")
+    """Dynamic query based off command line input"""
+    conn = sqlite3.connect("GameDB.db")
     cursor = conn.cursor()
     cursor.execute(query)
-    cursor.execute("SELECT COUNT(*) FROM NamesDB.db")
-    Name_Results = cursor.fetchall()
-    
-    print("Top number of observations NamesDB table:")
-    print(cursor.fetchall())
+    q_result = cursor.fetchall()
+    print(q_result)
     conn.close()
-    return Name_Results
-
+    return q_result
 
