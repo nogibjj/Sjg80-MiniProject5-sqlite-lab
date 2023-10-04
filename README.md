@@ -2,6 +2,14 @@
 
 This is a Python project that demonstrates how to create a script that interacts with a MySQL database. The project allows you to connect to a MySQL database, perform CRUD (Create, Read, Update, Delete) operations, and includes tests to verify the functionality.
 
+This project focus on the following points: 
+Requirements:
+1.	Connect to a SQL Database:
+•	The script must establish a connection to an SQL database, allowing it to interact with the database.
+2.	Perform CRUD Operations:
+•	The script should perform CRUD (Create, Read, Update, Delete) operations on the SQL database.
+3.	Write at Least Two Different SQL Queries:
+•	The script must include a minimum of two distinct SQL queries that serve a specific purpose in the context of the application.
 
 ### Steps in this project:
 
