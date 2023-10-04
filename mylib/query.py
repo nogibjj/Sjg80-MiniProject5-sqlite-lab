@@ -5,7 +5,7 @@ import sqlite3
 
 def query(query):
     """Dynamic query based off command line input"""
-    conn = sqlite3.connect("GameDB.db")
+    conn = sqlite3.connect("NamesDB.db")
     cursor = conn.cursor()
     cursor.execute(query)
     q_result = cursor.fetchall()
