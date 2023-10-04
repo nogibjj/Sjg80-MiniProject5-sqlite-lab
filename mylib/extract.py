@@ -16,6 +16,7 @@ def extract(url="https://github.com/nogibjj/Sjg80-MiniProject5-sqlite-lab"
     return file_path
 
 
+extract()
 
 
 

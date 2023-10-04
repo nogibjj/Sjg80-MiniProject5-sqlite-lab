@@ -32,3 +32,5 @@ def load(dataset="../Sjg80-MiniProject5-sqlite-lab/data/DataSet_withNames.csv"):
     conn.commit()
     conn.close()
     return "NamesDB.db"
+
+load()
