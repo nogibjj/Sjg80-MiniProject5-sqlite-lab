@@ -24,8 +24,8 @@ def load(dataset="../Sjg80-MiniProject5-sqlite-lab/data/DataSet_withNames.csv"):
     c.execute("DROP TABLE IF EXISTS NamesDB")
     c.execute(
         """CREATE TABLE NamesDB 
-        (Rank,Name, Platform, Publisher, Developer, 
-        Critic_Score, User_Score, Total_Shipped, Year)"""
+        (id,gender, birthdate, maiden_name, lname, 
+        fname,address,city,state)"""
     )
     # insert
     c.executemany("INSERT INTO NamesDB VALUES (?,?, ?, ?, ?, ?, ?, ?, ?)", payload)
